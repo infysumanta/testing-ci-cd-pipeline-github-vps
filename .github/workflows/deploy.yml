@@ -20,4 +20,7 @@ jobs:
           KEY: ${{ secrets.SSHKEY }}
           script: |
             cd ${{ secrets.TARGET_FOLDER }}
+            export NVM_DIR=~/.nvm
+            source ~/.nvm/nvm.sh 
             ./deploy.sh
+            ls
