@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>A Basic Application for Github CI CD</p>
+        <p>A Test Application for Github CI CD Deployment</p>
       </header>
     </div>
   );
