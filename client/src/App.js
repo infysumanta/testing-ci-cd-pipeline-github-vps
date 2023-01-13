@@ -1,14 +1,14 @@
-import logo from "./logo.svg";
 import "./App.css";
-
+import { Routes, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import Contact from "./pages/Contact";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>A Test Application for Deployment</p>
-        <p>GIthub CI CD wth VPS Server</p>
-      </header>
+      <Routes>
+        <Route index path="/" element={<HomePage />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 }
