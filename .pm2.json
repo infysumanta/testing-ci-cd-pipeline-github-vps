@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name": "Testing_CI_CD_Deployment",
+            "script": "npm",
+            "args": "start"
+        }
+    ]
+}
